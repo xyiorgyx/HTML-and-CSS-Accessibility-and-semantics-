@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-/*Changed to figure to tap into appropriate html tag*/
+/*Changed to 'figure' to tap into appropriate html tag*/
 figure {
     height: 800px;
     width: 100%;
@@ -85,8 +85,8 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* The following 2 CSS atributed were commented out as they are all repeated. Instead, all elements were combined uing one class name "benefit" */
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -94,14 +94,14 @@ aside {
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-lead h3 {
+/*Again the following attrivutes were commented out as they were repetetive and instead were combined into one '.benefit h3'.  */
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -109,14 +109,14 @@ aside {
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+/* Again, combined and commented out. */
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -126,9 +126,9 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
