@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* header id's were changed to just their HTML tags to be more consitent and readable.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,8 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/*Changed to figure to tap into appropriate html tag*/
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -68,14 +68,14 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/*Changed to main to tap into main tag on html file*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/*Changed to aside to tap into html tag (aside)*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Footer id was changed to its appropriate tag to be conistent and more readable.*/ 
 footer {
     padding: 30px;
     clear: both;
